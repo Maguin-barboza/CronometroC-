@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CronomtroFísica", "CronomtroFísica.csproj", "{BE28E3EE-7BF2-4ACC-8A68-BB1F834D6954}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE28E3EE-7BF2-4ACC-8A68-BB1F834D6954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE28E3EE-7BF2-4ACC-8A68-BB1F834D6954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE28E3EE-7BF2-4ACC-8A68-BB1F834D6954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE28E3EE-7BF2-4ACC-8A68-BB1F834D6954}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {523B0D99-E26D-4FEA-B462-500F916D61E3}
+	EndGlobalSection
+EndGlobal
