@@ -1,0 +1,10 @@
+C:\Users\Administrador\Source\Repos\CronometroC-\CronomtroFísica\obj\Debug\CronomtroFísica.csprojAssemblyReference.cache
+C:\Users\Administrador\Source\Repos\CronometroC-\CronomtroFísica\obj\Debug\CronomtroFísica.Form1.resources
+C:\Users\Administrador\Source\Repos\CronometroC-\CronomtroFísica\obj\Debug\CronomtroFísica.csproj.GenerateResource.cache
+C:\Users\Administrador\Source\Repos\CronometroC-\CronomtroFísica\bin\Debug\CronomtroFísica.exe.config
+C:\Users\Administrador\Source\Repos\CronometroC-\CronomtroFísica\bin\Debug\CronomtroFísica.exe
+C:\Users\Administrador\Source\Repos\CronometroC-\CronomtroFísica\bin\Debug\CronomtroFísica.pdb
+C:\Users\Administrador\Source\Repos\CronometroC-\CronomtroFísica\obj\Debug\CronomtroFísica.Properties.Resources.resources
+C:\Users\Administrador\Source\Repos\CronometroC-\CronomtroFísica\obj\Debug\CronomtroFísica.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Source\Repos\CronometroC-\CronomtroFísica\obj\Debug\CronomtroFísica.exe
+C:\Users\Administrador\Source\Repos\CronometroC-\CronomtroFísica\obj\Debug\CronomtroFísica.pdb

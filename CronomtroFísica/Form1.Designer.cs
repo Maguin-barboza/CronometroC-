@@ -28,23 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.lblSegundos = new System.Windows.Forms.Label();
+            this.lblMinutos = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Arial Narrow", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(3, 9);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(553, 110);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "00:00:00:0000";
             // 
             // button1
             // 
@@ -55,6 +47,7 @@
             this.button1.TabIndex = 2;
             this.button1.Text = "Inciar";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // button2
             // 
@@ -78,11 +71,43 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.lblMinutos);
+            this.panel1.Controls.Add(this.lblSegundos);
             this.panel1.Location = new System.Drawing.Point(12, 12);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(560, 141);
             this.panel1.TabIndex = 5;
+            // 
+            // lblSegundos
+            // 
+            this.lblSegundos.AutoSize = true;
+            this.lblSegundos.Font = new System.Drawing.Font("Arial Narrow", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSegundos.Location = new System.Drawing.Point(396, 14);
+            this.lblSegundos.Name = "lblSegundos";
+            this.lblSegundos.Size = new System.Drawing.Size(135, 110);
+            this.lblSegundos.TabIndex = 1;
+            this.lblSegundos.Text = "00";
+            // 
+            // lblMinutos
+            // 
+            this.lblMinutos.AutoSize = true;
+            this.lblMinutos.Font = new System.Drawing.Font("Arial Narrow", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMinutos.Location = new System.Drawing.Point(236, 14);
+            this.lblMinutos.Name = "lblMinutos";
+            this.lblMinutos.Size = new System.Drawing.Size(135, 110);
+            this.lblMinutos.TabIndex = 2;
+            this.lblMinutos.Text = "00";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Arial Narrow", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(347, 14);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(69, 110);
+            this.label3.TabIndex = 3;
+            this.label3.Text = ":";
             // 
             // Form1
             // 
@@ -102,12 +127,13 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lblMinutos;
+        private System.Windows.Forms.Label lblSegundos;
     }
 }
 
