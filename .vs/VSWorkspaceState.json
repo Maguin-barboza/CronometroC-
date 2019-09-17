@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\CronomtroFísica"
+    "\\CronomtroFísica",
+    "\\CronomtroFísica\\Models"
   ],
   "SelectedNode": "\\CronomtroFísica\\CronomtroFísica.sln",
   "PreviewInSolutionExplorer": false
