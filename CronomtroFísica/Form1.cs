@@ -19,6 +19,7 @@ namespace CronomtroFísica
     {
         public bool parado;
         TimerController controller = new TimerController();
+        string mensagem;
 
         SerialPort porta;
 
@@ -31,6 +32,19 @@ namespace CronomtroFísica
 
         private void Iniciar_Contagem(object sender, EventArgs e)
         {
+            mensagem = porta.ReadLine();
+
+            if(mensagem == "1\r")
+            {
+                mensagem = controller.Start();
+                parado = false;
+            }
+            else
+            {
+                mensagem = controller.Stop();
+                parado = true;
+            }
+
             this.Invoke(new EventHandler(Escrever));
         }
 
@@ -49,16 +63,19 @@ namespace CronomtroFísica
 
         private void Escrever(object sender, EventArgs e)
         {
-            if (parado)
-            {
-                listCounts.Items.Add(controller.Start());
-                parado = false;
-            }
-            else
-            {
-                listCounts.Items.Add(controller.Stop());
-                parado = true;
-            }
+            listCounts.Items.Add(mensagem);
+
+
+            //if (parado)
+            //{
+            //    listCounts.Items.Add(controller.Start());
+            //    parado = false;
+            //}
+            //else
+            //{
+            //    listCounts.Items.Add(controller.Stop());
+            //    parado = true;
+            //}
         }
     }
 }
