@@ -34,7 +34,7 @@ namespace CronomtroFísica
         {
             mensagem = porta.ReadLine();
 
-            if(mensagem == "1\r")
+            if (mensagem == "1\r")
             {
                 mensagem = controller.Start();
                 parado = false;
@@ -58,7 +58,15 @@ namespace CronomtroFísica
             porta.StopBits = StopBits.One;
             porta.DataReceived += Iniciar_Contagem;
 
-            porta.Open();
+            try
+            {
+                porta.Open();
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            
         }
 
         private void Escrever(object sender, EventArgs e)
